@@ -106,7 +106,7 @@ type BlockChain struct{
 
 // 5.定义一个区块链 
 
-// func NewBlockChain() *BlockChain{
+func NewBlockChain() *BlockChain{
 	// 创建一个创世块，并添加到区块链中
 	genesisBlock:= GenesisBlock()
 	return &BlockChain{
@@ -114,7 +114,7 @@ type BlockChain struct{
 	}
 }
 
-// 创世块
+// 创世块,hello
 func GenesisBlock() *Block{
 	return	NewBlock("go一期创世块，老牛拜了！",[]byte{})
 }
