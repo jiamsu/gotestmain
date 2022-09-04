@@ -114,7 +114,7 @@ func NewBlockChain() *BlockChain{
 	}
 }
 
-// 创世块,hello
+// 创世块
 func GenesisBlock() *Block{
 	return	NewBlock("go一期创世块，老牛拜了！",[]byte{})
 }
