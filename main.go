@@ -99,14 +99,14 @@ block.Hash=hash[:]
 type BlockChain struct{
 	// 定义一个区块链数组
 	blocks []*Block
-	
+
 
 }
 
 
 // 5.定义一个区块链 
 
-func NewBlockChain() *BlockChain{
+// func NewBlockChain() *BlockChain{
 	// 创建一个创世块，并添加到区块链中
 	genesisBlock:= GenesisBlock()
 	return &BlockChain{
